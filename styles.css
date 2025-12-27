@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">/* Reset margin and padding for all elements */</p>
+<p class="p1">* {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>box-sizing: border-box;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">body {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-family: "Arial", sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #f4f4f4;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #333;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">/* Header Styles */</p>
+<p class="p1">header {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #004c98; /* 蓝色背景 */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 20px 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-align: center;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">header .logo h1 {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 2.5em;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom: 5px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">header .sub-logo {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1.2em;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-style: italic;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-top: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #fff;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">header nav ul {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>list-style: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 0;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">header nav ul li {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: inline;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 0 20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">header nav ul li a {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1.1em;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">/* Hero Section */</p>
+<p class="p1">.hero {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #0073e6; /* 蓝色背景 */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 80px 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-align: center;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero h2 {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 2.5em;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom: 20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero p {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1.5em;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-top: 10px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">/* News Section */</p>
+<p class="p1">.news {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #fff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 50px 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-align: center;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.news h2 {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 2.5em;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom: 30px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.news-cards {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>justify-content: space-around;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>flex-wrap: wrap;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.news-card {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #f9f9f9;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>width: 30%;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.news-card h3 {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1.8em;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom: 10px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.news-card p {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1.2em;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom: 20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.news-card a {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #004c98;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-weight: bold;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">/* Footer Section */</p>
+<p class="p1">footer {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #004c98;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 20px 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-align: center;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">footer p {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1em;</p>
+<p class="p1">}</p>
+</body>
+</html>
